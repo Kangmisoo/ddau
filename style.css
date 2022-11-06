@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(47, 78, 104);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(166, 202, 233);
+    padding: 8px 12px;
+}
+
+.navbar__logo {
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.navbar__logo i {
+    color: rgb(41, 74, 104);
+}
+
+.navbar__menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar__menu li {
+    padding: 10px 12px;
+}
+a:hover {
+    background-color: rgb(212, 220, 241);
+    border: aqua;
+}
+#pic{
+    margin-top: 50px;
+}
+#title1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: rgb(68, 54, 197);
+    
+}
+#title2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    text-align: right;
+    float: left;
+    color: rgb(68, 54, 197);
+
+}
